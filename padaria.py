@@ -1,6 +1,6 @@
-lista_clientes = []
-lista_funcionarios = []
-lista_produtos = []
+lista_clientes = [];
+lista_funcionarios = [];
+lista_produtos = [];
 faturamento = 0
 
 class Sacola():
