@@ -190,4 +190,4 @@ while True:
                 print("matricula invalida!")
                 
     else:
-        print("Número invalido :p")
+        print("Número invalido :p");
