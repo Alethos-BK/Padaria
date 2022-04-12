@@ -1,6 +1,6 @@
-lista_clientes = []
-lista_funcionarios = []
-lista_produtos = []
+lista_clientes = [];
+lista_funcionarios = [];
+lista_produtos = [];
 faturamento = 0
 
 class Sacola():
@@ -83,10 +83,6 @@ lista_clientes.append(claudio)
 anderson = Funcionario("Anderson", "gerente", "121", "2222222", " email@email.email", "8888.8888")
 lista_funcionarios.append(anderson)
 
-##################################################
-#TODO: #.pop(numero do item q quer tirar)
-##################################################
-
 while True:
     print("---------------------PADARIA DOS CRIA---------------------")
     print("\n Você é cliente ou trabalha aqui meu rei?")
@@ -110,7 +106,6 @@ while True:
                     print("\nAcessar padaria?\n1- Sim\n2- Não")
                     
                     pre_menu = int(input(""))
-                    # pao = quan
                     while pre_menu == 1:
                         
                         for produto in lista_produtos:
@@ -177,7 +172,7 @@ while True:
                             setattr(lista_produtos[menu - 1], modificacao, novo_valor)
     
                         elif menu >= len(lista_produtos):
-                            print("Digite um produto válido")
+                            print("Digite um produto válido :)")
                             
                         else:
                             break
@@ -190,4 +185,4 @@ while True:
                 print("matricula invalida!")
                 
     else:
-        print("Número invalido :p")
+        print("Número invalido :p");
