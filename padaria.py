@@ -172,7 +172,7 @@ while True:
                             setattr(lista_produtos[menu - 1], modificacao, novo_valor)
     
                         elif menu >= len(lista_produtos):
-                            print("Digite um produto válido")
+                            print("Digite um produto válido :)")
                             
                         else:
                             break
